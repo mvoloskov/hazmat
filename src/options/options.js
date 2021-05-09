@@ -12,13 +12,11 @@ newWordForm.addEventListener('submit', e => {
 chrome.storage.onChanged.addListener(render)
 render()
 
-
-
-
 function render () {
   chrome.storage.sync.get({
     bannedWords: []
   }, items => {
+    if (!items) return
     bannedWordsContainer.innerHTML = items.bannedWords.map((word, index) => `
       <li>
         <button type="button" id="delete-${index}">Delete</button>

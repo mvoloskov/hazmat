@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Hazmat",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Block unwanted subreddits",
   "permissions": [
     "storage",
@@ -19,7 +19,19 @@
       "src/app.js"
     ]
   }],
-  "options_page": "src/options/options.html",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "com.mvoloskov.hazmat@2.0.0"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "src/assets/16.png",
+      "38": "src/assets/48.png"
+    },
+    "default_title": "Hazmat options",
+    "default_popup": "src/options/options.html"
+  },
   "icons": {
     "16": "src/assets/16.png",
     "48": "src/assets/48.png",
