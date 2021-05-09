@@ -50,13 +50,10 @@ const start = () => {
     const handleChanges = () => debounce(chrome.storage.sync.get(null, store => {
         const bannedTags = store.bannedWords || []
         if (bannedTags.length === 0) return
-        console.log(bannedTags)
         document.querySelectorAll(parentSelector).forEach(parent => {
             const tag = parent.querySelector(tagSelector)?.getAttribute('href')
                 .replace('r/', '')
                 .replaceAll('/', '')
-
-            console.log(parent, parent.querySelector(tagSelector), tag)
             if (!bannedTags.includes(tag) && !bannedTags.includes('r/' + tag)) return
             parent.remove()
         })
