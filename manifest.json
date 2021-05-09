@@ -21,7 +21,7 @@
   }],
   "browser_specific_settings": {
     "gecko": {
-      "id": "com.mvoloskov.hazmat@2.0.0"
+      "id": "com.mvoloskov.hazmat@2.0.1"
     }
   },
   "browser_action": {
