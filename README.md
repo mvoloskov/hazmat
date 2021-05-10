@@ -1,4 +1,11 @@
 <p align="center"><img width="256" alt="" src="https://user-images.githubusercontent.com/14220138/117668177-36a5a180-b195-11eb-970d-2ade16c8ef48.png"></p>
+<p align="center">
+ <img alt="License: BSL-1.0" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
+ <a href="https://www.buymeacoffee.com/mvoloskov"><img alt="Sponsor this project" src="https://img.shields.io/badge/-sponsor-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
+ <a href="https://github.io/mvoloskov><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
+ <a href="https://twitter.com/intent/user?screen_name=mvoloskov"><img alt="My twitter" src="https://img.shields.io/twitter/follow/mvoloskov?style=social"></a>
+ <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
+</p>
 
 # 🥽 Hazmat 
 Hazmat allows you to hide unwanted subreddits from your Reddit feed.
@@ -47,5 +54,3 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 - Original idea by [@Floydimus02](https://github.com/Floydimus02)
 - [Logo](https://icons8.com/icons/set/ski-goggles) icon by [Icons8](https://icons8.com)
 - Typeface is [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)  
-
-Yes, that icon is traced. No, I don't feel bad about it.
