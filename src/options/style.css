@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('ibmplexsans-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('ibmplexsans-medium-webfont.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('ibmplexsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-family:
+    'IBMPlexSans',
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
 html,
 body {
   height: 100%;
@@ -28,6 +68,11 @@ footer > * {
   list-style-type: none;
   padding: 0;
   margin-top: 32px;
+  font-weight: bold;
+}
+
+.words * {
+  vertical-align: baseline;
 }
 
 .words:empty::after {
@@ -40,5 +85,42 @@ footer > * {
 }
 
 .words button {
-  vertical-align: middle;
+  vertical-align: baseline;
+  margin-right: .5em;
+  padding: 6px 10px;
+  line-height: 1;
+  min-height: 25px;
+  font-size: small;
+}
+
+/* forgive this atrocity */
+button {
+  background-color: var(--c-button);
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 17px;
+  min-height: 32px;
+  padding: 4px 16px;
+  color: var(--c-background);
+  border-radius: 4px;
+  height: 23px;
+}
+
+button:hover {
+  background-color: var(--c-button-hover);
+}
+
+input {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(237, 239, 241);
+  border-radius: 4px;
+  color: rgb(28, 28, 28);
+  font-size: 14px;
+  height: 24px;
+  padding: 4px 16px;
+  vertical-align: baseline;
+  margin-right: .5em;
 }

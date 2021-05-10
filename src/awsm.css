@@ -8,19 +8,17 @@
 
 :root {
   --c-background: #fff;
-  --c-hr: #f2f2f2;
-
   --c-text: #000;
   --c-text-shy: #aaa;
   --c-link: #0064c1;
   --c-link-hover: #3000c1;
+  --c-button: #0079d3;
+  --c-button-hover: #1484d7;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-background: #444;
-    --c-hr: #333;
-
+    --c-background: #1a1a1b;
     --c-text: #fff;
     --c-text-shy: #eee;
     --c-link: #487fb3;
@@ -29,21 +27,6 @@
 }
 
 html {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Fira Sans",
-    "Droid Sans",
-    "Helvetica Neue",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
   font-size: 100%;
   line-height: 1.6;
   background: var(--c-background);
@@ -285,13 +268,6 @@ pre {
   background-attachment: scroll, scroll;
   background-size: 1px 100%, 1px 100%;
   background-repeat: no-repeat, no-repeat;
-}
-
-hr {
-  height: 1px;
-  margin: 2em 0;
-  border: 0;
-  background: var(--c-hr);
 }
 
 input, button {

@@ -32,3 +32,4 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 
 - Original idea by [@Floydimus02](https://github.com/Floydimus02)
 - [Logo](https://icons8.com/icons/set/ski-goggles) icon by [Icons8](https://icons8.com)
+- Typeface is [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
