@@ -15,6 +15,11 @@ Hazmat allows you to hide unwanted subreddits from your Reddit feed.
 ## How it works
 Just declare a list of subreddits you don't like and they will be hidden from your feed.
 
+## Downloads
+
+- [Hazmat for Firefox](https://addons.mozilla.org/en-US/firefox/addon/hazmat)
+- *(Chrome Web Store is coming. If you want to install Hazmat in Chrome, follow the instruction below.)*
+
 ## Features
 
 - 🧤 Supports Google Chrome, Chromium and other Chromium-based browsers as well as Firefox
