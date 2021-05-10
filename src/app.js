@@ -48,12 +48,13 @@ const start = () => {
     if (observer) return
 
     const handleChanges = () => debounce(chrome.storage.sync.get(null, store => {
-        const bannedTags = store.bannedWords || []
+        const bannedTags = (store.bannedWords || []).map(tag => tag.toLowerCase())
         if (bannedTags.length === 0) return
         document.querySelectorAll(parentSelector).forEach(parent => {
             const tag = parent.querySelector(tagSelector)?.getAttribute('href')
                 .replace('r/', '')
                 .replaceAll('/', '')
+                .toLowerCase()
             if (!bannedTags.includes(tag) && !bannedTags.includes('r/' + tag)) return
             parent.remove()
         })
