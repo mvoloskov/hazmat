@@ -42,17 +42,3 @@ footer > * {
 .words button {
   vertical-align: middle;
 }
-
-.word {
-  font-style: italic;
-}
-
-.word::before {
-  display: inline;
-  content: open-quote;
-}
-
-.word::after {
-  display: inline;
-  content: close-quote;
-}
