@@ -104,5 +104,7 @@ typings/
 # Serverless directories
 .serverless
 
+*.zip
+
 
 # End of https://www.gitignore.io/api/node,macos
