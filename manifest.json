@@ -1,8 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Hazmat",
-  "version": "2.0.2",
   "description": "Ban subreddits you don't like",
+  "version": "2.0.3",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "com.mvoloskov.hazmat@2.0.3"
+    }
+  },
   "permissions": [
     "storage",
     "tabs"
@@ -19,11 +24,6 @@
       "src/app.js"
     ]
   }],
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "com.mvoloskov.hazmat@2.0.2"
-    }
-  },
   "browser_action": {
     "default_icon": {
       "128": "src/assets/128.png"

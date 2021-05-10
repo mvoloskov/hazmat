@@ -12,8 +12,14 @@
   --c-text-shy: #aaa;
   --c-link: #0064c1;
   --c-link-hover: #3000c1;
+
   --c-button: #0079d3;
+  --c-button-text: #fff;
   --c-button-hover: #1484d7;
+  --c-input: #f6f7f8;
+  --c-input-text: #1c1c1c;
+  --c-input-border: #edeff1;
+  --c-input-border-focus: #0079d3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +29,14 @@
     --c-text-shy: #eee;
     --c-link: #487fb3;
     --c-link-hover: #7592ad;
+
+    --c-button: #d7dadc;
+    --c-button-text: #1a1a1b;
+    --c-button-hover: #e3e6e7;
+    --c-input: #272729;
+    --c-input-text: #edeff1;
+    --c-input-border: #343536;
+    --c-input-border-focus: #edeff1;
   }
 }
 
