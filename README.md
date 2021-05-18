@@ -19,6 +19,10 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 
 - [Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/hazmat)
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm)
+                                                                                                                                                
+## As seen on
+
+- [Reddit: My friend and I built this extension to filter sub from r/Popular](https://www.reddit.com/r/FirefoxAddons/comments/ncvy6q/my_friend_and_i_built_this_extension_to_filter/)
 
 ## Features
 
