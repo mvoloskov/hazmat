@@ -121,6 +121,7 @@ input {
   font-size: 14px;
   height: 24px;
   padding: 4px 16px;
+  padding-left: 4px;
   vertical-align: baseline;
   margin-right: .5em;
 }
@@ -128,4 +129,8 @@ input {
 input:focus {
   outline: none;
   border-color: var(--c-input-border-focus);
+}
+
+.r-slash {
+  letter-spacing: 2px;
 }

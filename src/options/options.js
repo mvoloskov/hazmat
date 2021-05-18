@@ -38,7 +38,7 @@ function addWord(word, cb) {
     bannedWords: []
   }, items => {
     chrome.storage.sync.set({
-      bannedWords: items.bannedWords.concat([word.toLowerCase()])
+      bannedWords: items.bannedWords.concat(['r/' + word.toLowerCase().replaceAll('r/', '')])
     }, cb)
   })
 }
