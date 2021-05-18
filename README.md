@@ -17,8 +17,7 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 
 ## Downloads
 
-- [Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/hazmat)
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm)
+[![Mozilla Add-on](https://img.shields.io/amo/v/hazmat?color=orange)](https://addons.mozilla.org/en-US/firefox/addon/hazmat)  [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?color=brightgreen)](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm) 
                                                                                                                                                 
 ## As seen on
 
