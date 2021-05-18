@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hazmat",
   "description": "Ban subreddits you don't like",
-  "version": "2.1.4",
+  "version": "3.1.4",
   "browser_specific_settings": {
     "gecko": {
       "id": "com.mvoloskov.hazmat@2.1.3"
