@@ -2,7 +2,7 @@
 <p align="center">
  <img alt="License: BSL-1.0" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
  <a href="https://www.buymeacoffee.com/mvoloskov"><img alt="Sponsor this project" src="https://img.shields.io/badge/-sponsor-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
- <a href="https://github.io/mvoloskov><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
+ <a href="https://github.io/mvoloskov"><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
  <a href="https://twitter.com/intent/user?screen_name=mvoloskov"><img alt="My twitter" src="https://img.shields.io/twitter/follow/mvoloskov?style=social"></a>
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
 </p>
