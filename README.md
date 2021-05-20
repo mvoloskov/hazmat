@@ -7,6 +7,10 @@
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
 </p>
 
+## Downloads
+
+[![GitHub](https://img.shields.io/github/v/release/mvoloskov/hazmat?color=brightgreen&label=From%20GitHub&logo=github&sort=semver)](https://github.com/mvoloskov/hazmat/releases/)  [![Mozilla Add-on](https://img.shields.io/amo/v/hazmat?color=orange&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/hazmat)  [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?logo=google-chrome&style=social)](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm) 
+
 # 🥽 Hazmat 
 Hazmat allows you to hide unwanted subreddits from your Reddit feed.
 
@@ -15,10 +19,6 @@ Hazmat allows you to hide unwanted subreddits from your Reddit feed.
 ## How it works
 Just declare a list of subreddits you don't like and they will be hidden from your feed.
 
-## Downloads
-
-[![Mozilla Add-on](https://img.shields.io/amo/v/hazmat?color=orange)](https://addons.mozilla.org/en-US/firefox/addon/hazmat)  [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?color=brightgreen)](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm) 
-                                                                                                                                                
 ## As seen on
 
 - [Reddit: My friend and I built this extension to filter sub from r/Popular](https://www.reddit.com/r/FirefoxAddons/comments/ncvy6q/my_friend_and_i_built_this_extension_to_filter/)
