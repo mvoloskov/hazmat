@@ -81,7 +81,7 @@ footer > * {
   color: grey;
   font-size: 12px;
   text-align: center;
-  margin: 128px 0;
+  margin-top: 64px;
 }
 
 .words button {
