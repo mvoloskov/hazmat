@@ -6,6 +6,12 @@ const importButton = document.getElementById('import')
 const exportButton = document.getElementById('export')
 const fileInput = document.getElementById('file-input')
 
+const openOptionsButton = document.getElementById('open-options')
+
+const isPopup = !importButton || !exportButton || !fileInput
+
+if (openOptionsButton) openOptionsButton.addEventListener('click', () => chrome.runtime.openOptionsPage())
+
 function download(filename, text) {
   var element = document.createElement('a');
   element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -16,40 +22,42 @@ function download(filename, text) {
   document.body.removeChild(element);
 }
 
-importButton.addEventListener('click', () => fileInput.click())
-fileInput.addEventListener('change', e => {
-  const file = e.target.files[0]
-  if (!file) return
-  const reader = new FileReader()
-  reader.onload = e => {
-    const contents = e.target.result
-    const subs = contents.split('\n').map(sub => sub.trim()).filter(sub => sub.length > 0)
+if (!isPopup) {
+  importButton.addEventListener('click', () => fileInput.click())
+  fileInput.addEventListener('change', e => {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = e => {
+      const contents = e.target.result
+      const subs = contents.split('\n').map(sub => sub.trim()).filter(sub => sub.length > 0)
+      chrome.storage.sync.get({ bannedWords: [] }, items => {
+        const exists = items.bannedWords.length > 0
+        let yes = true
+        if (exists) {
+          yes = window.confirm('This will overwrite all your current subreddits. Continue?')
+        }
+  
+        if (!yes) return
+  
+        chrome.storage.sync.set({
+          bannedWords: subs.map(word => 'r/' + word.toLowerCase().replaceAll('r/', ''))
+        })
+      })
+    }
+    reader.readAsText(file)
+  })
+
+  exportButton.addEventListener('click', () => {
     chrome.storage.sync.get({ bannedWords: [] }, items => {
       const exists = items.bannedWords.length > 0
-      let yes = true
-      if (exists) {
-        yes = window.confirm('This will overwrite all your current subreddits. Continue?')
-      }
-
-      if (!yes) return
-
-      chrome.storage.sync.set({
-        bannedWords: subs.map(word => 'r/' + word.toLowerCase().replaceAll('r/', ''))
-      })
+      if (!exists) return
+      const filename = `hazmat-export-subreddits-${new Date().toISOString()}.txt`
+      const text = items.bannedWords.join('\n') + '\n'
+      download(filename, text)
     })
-  }
-  reader.readAsText(file)
-})
-
-exportButton.addEventListener('click', () => {
-  chrome.storage.sync.get({ bannedWords: [] }, items => {
-    const exists = items.bannedWords.length > 0
-    if (!exists) return
-    const filename = `hazmat-export-subreddits-${new Date().toISOString()}.txt`
-    const text = items.bannedWords.join('\n') + '\n'
-    download(filename, text)
   })
-})
+}
 
 newWordForm.addEventListener('submit', e => {
   e.preventDefault();
@@ -80,9 +88,11 @@ function render () {
       )
     }
 
-    const shouldExportBeHidden = items.bannedWords.length === 0
-    if (shouldExportBeHidden) exportButton.hidden = true
-    else exportButton.removeAttribute('hidden')
+    if (!isPopup) {
+      const shouldExportBeHidden = items.bannedWords.length === 0
+      if (shouldExportBeHidden) exportButton.hidden = true
+      else exportButton.removeAttribute('hidden')
+    }
   })
 }
 

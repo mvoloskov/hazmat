@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../awsm.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hazmat options</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hazmat options</h1>
+    </header>
+    <main>
+      <p>Declare a list of unwanted subreddits here:</p>
+      <form id="new-word-form">
+        <span class="r-slash">r/</span>
+        <input id="new-word" autocomplete="off" placeholder="nothing" aria-label="Subreddit" required>
+        <button>Add</button>
+      </form>
+      <ul class="words" id="words"></ul>
+    </main>
+    <footer>
+      <p>
+        Hazmat allows you to hide subreddits you don't like.
+      </p>
+      <p>
+        Just declare a list of subreddits you don't like and they will be hidden from your feed.
+      </p>
+      <div class="pillbox">
+        <p>
+          <a href="https://github.com/mvoloskov/hazmat" target="_blank">GitHub</a>
+        </p>
+        <button class="small" type="button" id="open-options">Advanced...</button>
+      </div>
+    </footer>
+    <script src="options.js"></script>
+  </body>
+</html>
