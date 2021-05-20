@@ -6,6 +6,16 @@ const importButton = document.getElementById('import')
 const exportButton = document.getElementById('export')
 const fileInput = document.getElementById('file-input')
 
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+  element.style.display = 'none';
+  document.body.appendChild(element);
+  element.click();
+  document.body.removeChild(element);
+}
+
 importButton.addEventListener('click', () => fileInput.click())
 fileInput.addEventListener('change', e => {
   const file = e.target.files[0]
@@ -29,6 +39,16 @@ fileInput.addEventListener('change', e => {
     })
   }
   reader.readAsText(file)
+})
+
+exportButton.addEventListener('click', () => {
+  chrome.storage.sync.get({ bannedWords: [] }, items => {
+    const exists = items.bannedWords.length > 0
+    if (!exists) return
+    const filename = `hazmat-export-subreddits-${new Date().toISOString()}.txt`
+    const text = items.bannedWords.join('\n') + '\n'
+    download(filename, text)
+  })
 })
 
 newWordForm.addEventListener('submit', e => {
@@ -59,6 +79,10 @@ function render () {
         () => deleteWord(i, render)
       )
     }
+
+    const shouldExportBeHidden = items.bannedWords.length === 0
+    if (shouldExportBeHidden) exportButton.hidden = true
+    else exportButton.removeAttribute('hidden')
   })
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "hazmat",
-  "version": "2.1.3",
+  "version": "3.3.0",
   "description": "Ban subreddits you don't like",
   "main": "manifest.json",
   "scripts": {

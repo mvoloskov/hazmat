@@ -162,3 +162,7 @@ input:focus {
 .r-slash {
   letter-spacing: 2px;
 }
+
+[hidden] {
+  display: none !important;
+}
