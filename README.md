@@ -7,9 +7,11 @@
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
 </p>
 
-## Downloads
-
-[![GitHub](https://img.shields.io/github/v/release/mvoloskov/hazmat?color=brightgreen&label=From%20GitHub&logo=github&sort=semver)](https://github.com/mvoloskov/hazmat/releases/)  [![Mozilla Add-on](https://img.shields.io/amo/v/hazmat?color=orange&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/hazmat)  [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?logo=google-chrome&style=social)](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm) 
+<p align="center">
+ <a href="https://github.com/mvoloskov/hazmat/releases/"><img src="https://img.shields.io/github/v/release/mvoloskov/hazmat?color=brightgreen&amp;label=Download%20from%20GitHub&amp;logo=github&amp;sort=semver" alt="GitHub"></a>
+ <a href="https://addons.mozilla.org/en-US/firefox/addon/hazmat"><img src="https://img.shields.io/amo/v/hazmat?color=orange&amp;logo=firefox" alt="Mozilla Add-on"></a>
+ <a href="https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm"><img src="https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?logo=google-chrome&amp;style=social" alt="Chrome Web Store"></a>
+</p>
 
 # 🥽 Hazmat 
 Hazmat allows you to hide unwanted subreddits from your Reddit feed.
