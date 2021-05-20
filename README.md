@@ -28,6 +28,7 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 - 🧤 Supports Google Chrome, Chromium and other Chromium-based browsers as well as Firefox
 - 💫 Your list of banned subreddits **syncs with your Google or Firefox account across your devices**
 - 🌓 Extension color scheme respects your system settings
+- 📦 Import and export your personal subreddit blacklist
 
 <img width="688" alt="" src="https://user-images.githubusercontent.com/14220138/117667223-36f16d00-b194-11eb-922a-1e882bee0ab3.png">
 
