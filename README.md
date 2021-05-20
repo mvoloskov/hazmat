@@ -2,7 +2,7 @@
 <p align="center">
  <img alt="License: BSL-1.0" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
  <a href="https://www.buymeacoffee.com/mvoloskov"><img alt="Sponsor this project" src="https://img.shields.io/badge/-sponsor-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
- <a href="https://github.io/mvoloskov><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
+ <a href="https://github.io/mvoloskov"><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
  <a href="https://twitter.com/intent/user?screen_name=mvoloskov"><img alt="My twitter" src="https://img.shields.io/twitter/follow/mvoloskov?style=social"></a>
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
 </p>
@@ -17,8 +17,11 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 
 ## Downloads
 
-- [Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/hazmat)
-- *(Chrome Web Store is coming. If you want to install Hazmat in Chrome, follow the instruction below.)*
+[![Mozilla Add-on](https://img.shields.io/amo/v/hazmat?color=orange)](https://addons.mozilla.org/en-US/firefox/addon/hazmat)  [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nhpckifafnnkgkoecinonhlongfclakm?color=brightgreen)](https://chrome.google.com/webstore/detail/hazmat/nhpckifafnnkgkoecinonhlongfclakm) 
+                                                                                                                                                
+## As seen on
+
+- [Reddit: My friend and I built this extension to filter sub from r/Popular](https://www.reddit.com/r/FirefoxAddons/comments/ncvy6q/my_friend_and_i_built_this_extension_to_filter/)
 
 ## Features
 
