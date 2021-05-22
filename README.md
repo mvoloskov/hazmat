@@ -15,9 +15,9 @@
 </p>
 
 # 🥽 Hazmat 
-`We are what we eat.`
+**We are what we eat.**
 
-With ever evolving digital generation, the above phrase has evolved into: `We think based on what we consume.` Our thought process has huge impact on how we lead our lives. A good one only fuels growth.
+With ever evolving digital generation, the above phrase has evolved into: **We think based on what we consume.** Our thought process has huge impact on how we lead our lives. A good one only fuels growth.
 
 
 There is an overwhelming amount of information available for consumption at the tap of a button. Not all of it is accurate, useful, or healthy for our minds.
