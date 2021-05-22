@@ -2,6 +2,7 @@
 <p align="center">
  <img alt="License: BSL-1.0" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
  <a href="https://www.buymeacoffee.com/mvoloskov"><img alt="Sponsor this project" src="https://img.shields.io/badge/-sponsor-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
+ <a href="https://www.floydimus.prismo.net/Floydimus/hazmat"><img src="https://img.shields.io/badge/-Website-ffffff"></a>
  <a href="https://github.io/mvoloskov"><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
  <a href="https://twitter.com/intent/user?screen_name=mvoloskov"><img alt="My twitter" src="https://img.shields.io/twitter/follow/mvoloskov?style=social"></a>
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
@@ -14,7 +15,27 @@
 </p>
 
 # 🥽 Hazmat 
-Hazmat allows you to hide unwanted subreddits from your Reddit feed.
+`We are what we eat.`
+
+With ever evolving digital generation, the above phrase has evolved into: `We think based on what we consume.` Our thought process has huge impact on how we lead our lives. A good one only fuels growth.
+
+
+There is an overwhelming amount of information available for consumption at the tap of a button. Not all of it is accurate, useful, or healthy for our minds.
+
+
+When we are conscious about what we read, listen to, watch, or interact with on internet, we can significantly control our moods and minds at large. Positive & uplifting content and interactions create a psychological environment for our mental well being.
+
+
+Reddit, one of the largest social platforms, is a hive of good as well as bad content. With growing toxicity on the Internet and these difficult times, it is quite easy to spiral downwards questioning your own existence.
+
+
+How about filtering the unwanted communities from [r/Popular](https://www.reddit.com/r/popular) and only experiencing good vibes?
+
+
+With Hazmat, you can now block all the unwanted sub Reddits from the front page and focus on what you desire the most. Just add a sub to the list and never see it again. Give it a try and do let us know how your Reddit experience was influenced.
+
+
+P.S.: To understand how digital consumption affects us, watch [The Social Dilemma](https://www.google.com/url?q=https%3A%2F%2Fwww.netflix.com%2Fin%2Ftitle%2F81254224&sa=D&sntz=1&usg=AFQjCNHT6d88NsPBBegEKGz44Bblwxpc_A).
 
 ![ui](https://user-images.githubusercontent.com/14220138/117666908-dd893e00-b193-11eb-922d-a3073c17a8f3.gif)
 
@@ -62,6 +83,6 @@ Just declare a list of subreddits you don't like and they will be hidden from yo
 
 ## Mentions
 
-- Original idea by [@Floydimus02](https://github.com/Floydimus02)
+- Original idea by [@Floydimus](https://www.floydimus.prismo.net/)
 - [Logo](https://icons8.com/icons/set/ski-goggles) icon by [Icons8](https://icons8.com)
 - Typeface is [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)  
