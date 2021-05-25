@@ -1,9 +1,9 @@
 <p align="center"><img width="256" alt="" src="https://user-images.githubusercontent.com/14220138/117668177-36a5a180-b195-11eb-970d-2ade16c8ef48.png"></p>
 <p align="center">
- <img alt="License: BSL-1.0" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
+ <img alt="License" src="https://img.shields.io/github/license/mvoloskov/hazmat?color=brightgreen">
  <a href="https://www.buymeacoffee.com/mvoloskov"><img alt="Sponsor this project" src="https://img.shields.io/badge/-sponsor-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
  <a href="https://www.floydimus.prismo.net/Floydimus/hazmat"><img src="https://img.shields.io/badge/-Website-ffffff"></a>
- <a href="https://github.io/mvoloskov"><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
+ <a href="https://github.com/mvoloskov"><img alt="My github" src="https://img.shields.io/github/followers/mvoloskov?style=social"></a>
  <a href="https://twitter.com/intent/user?screen_name=mvoloskov"><img alt="My twitter" src="https://img.shields.io/twitter/follow/mvoloskov?style=social"></a>
  <a href="https://www.reddit.com/user/uyouthe"><img alt="My reddit" src="https://img.shields.io/reddit/user-karma/combined/uyouthe?style=social"></a>
 </p>
